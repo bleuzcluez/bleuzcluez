@@ -18,6 +18,70 @@ body {
 
 }
 
-#photo1 {
- width: 20rem  
+.page-title {
+  text-align: center;
+  font-weight: 100;
 }
+
+.page-description {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 30px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top:20px;
+}
+
+.gallery-item {
+  border: 5px solid #FFF;
+  margin: 20px;
+}
+
+.gallery-item .thumbnail {
+
+}
+
+/* FOOTER NAVIGATION */
+
+nav {
+  background-color: #FFF;
+}
+
+nav li {
+  display: inline;
+  margin: 0;
+  padding: 0 10px;
+}
+
+nav ul {
+  display: inline;
+}
+
+.contact-btn {
+  float: right;
+
+}
+
+.contact-btn a {
+  margin-right: 30px;
+  padding: 8px 18px;
+  border: 1px solid #204156;
+
+}
+
+.contact-btn a:active {
+  position: relative;
+  bottom: 2px;
+}
+
+nav a {
+  height: 60px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none;
+}
+
