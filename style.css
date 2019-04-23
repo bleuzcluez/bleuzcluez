@@ -4,10 +4,12 @@ html, body {
   flex-direction: column;
   font-weight: 300;
   line-height: 1.5;
+ 
+
 }
 
 body {
-  font-family: 'Lato' , sans-serif;
+  font-family: 'Cute Font', cursive;
   background-image:
   url('https://www.colorhexa.com/779ecb.png');
   background-position: center top;
