@@ -25,24 +25,26 @@ body {
 
 .page-description {
   border: 1px solid #000;
+  margin: 2 rem;
   text-align: center;
-  padding: 30px;
+  padding: 20rem;
 }
 
 .gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top:20px;
+  margin-top:20rem;
   width: 2rem;
 }
 
 .gallery-item {
   border: 5px solid #FFF;
-  margin: 20px;
+  margin: 20rem;
 }
 
 .gallery-item .thumbnail {
+  border: 20rem solid #FFF;
 
 }
 
@@ -55,7 +57,7 @@ nav {
 nav li {
   display: inline;
   margin: 0;
-  padding: 0 10px;
+  padding: 0 10rem;
 }
 
 nav ul {
@@ -68,20 +70,22 @@ nav ul {
 }
 
 .contact-btn a {
-  margin-right: 30px;
-  padding: 8px 18px;
-  border: 1px solid #204156;
+  cursor: pointer;
+  margin-right: 30rem;
+  padding: 8rem 18rem;
+  border: 1rem solid #204156;
+  position: relative;
 
 }
 
 .contact-btn a:active {
-  position: relative;
-  bottom: 2px;
+ top: 2rem;
+ 
 }
 
 nav a {
-  height: 60px;
-  line-height: 60px;
+  height: 60rem;
+  line-height: 60rem;
   color: #204156;
   text-decoration: none;
 }
