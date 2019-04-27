@@ -24,27 +24,29 @@ body {
 }
 
 .page-description {
-  border: 1px solid #000;
-  margin: 2 rem;
+  border: 1rem solid #000;
+  margin: 1 rem;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .gallery {
-  display: flex;
-  flex-wrap: wrap;
+  display: center;
+  flex-wrap: center;
   justify-content: center;
-  margin-top:2rem;
-  width: 2rem;
+  margin-top:1rem;
+  width: 1rem;
 }
 
 .gallery-item {
   border: 5px solid #FFF;
-  margin: 2rem;
+  margin: 1rem;
+  justify-content: center;
 }
 
 .gallery-item .thumbnail {
-  border: 2rem solid #FFF;
+  border: 1rem solid #FFF;
+  justify-content: center;
 
 }
 
@@ -57,7 +59,7 @@ nav {
 nav li {
   display: inline;
   margin: 0;
-  padding: 0 2rem;
+  padding: 0 rem;
 }
 
 nav ul {
@@ -84,8 +86,8 @@ nav ul {
 }
 
 nav a {
-  height: 60rem;
-  line-height: 60rem;
+  height: 1rem;
+  line-height: 1rem;
   color: #204156;
   text-decoration: none;
 }
