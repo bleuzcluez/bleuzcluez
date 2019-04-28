@@ -24,7 +24,6 @@ body {
 }
 
 .page-description {
-  border: .2rem solid #000;
   margin: 0;
   text-align: center;
   padding: .2rem;
@@ -39,13 +38,13 @@ body {
 }
 
 .gallery-item {
-  border: .2rem solid #FFF;
-  margin: .2rem;
+  border: 0rem solid #FFF;
+  margin: 0rem;
   justify-content: center;
 }
 
 .gallery-item .thumbnail {
-  border: .1rem solid #FFF;
+  border: 0rem solid #FFF;
   justify-content: center;
 
 }
