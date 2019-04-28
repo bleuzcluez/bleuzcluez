@@ -3,7 +3,7 @@ html, body {
   display: flex;
   flex-direction: column;
   font-weight: 300;
-  line-height: 1.5;
+  line-height: 1;
  
 
 }
@@ -24,28 +24,28 @@ body {
 }
 
 .page-description {
-  border: .5rem solid #000;
-  margin: .5 rem;
+  border: .2rem solid #000;
+  margin: 0;
   text-align: center;
-  padding: .5rem;
+  padding: .2rem;
 }
 
 .gallery {
   display: center;
   flex-wrap: center;
   justify-content: center;
-  margin-top:.5rem;
-  width: .5rem;
+  margin-top:.2rem;
+  width: .2rem;
 }
 
 .gallery-item {
-  border: .5rem solid #FFF;
-  margin: .5rem;
+  border: .2rem solid #FFF;
+  margin: .2rem;
   justify-content: center;
 }
 
 .gallery-item .thumbnail {
-  border: 1rem solid #FFF;
+  border: .1rem solid #FFF;
   justify-content: center;
 
 }
@@ -58,8 +58,8 @@ nav {
 
 nav li {
   display: inline;
-  margin: .5;
-  padding: .5 rem;
+  margin: 0;
+  padding: .2 rem;
 }
 
 nav ul {
@@ -73,21 +73,21 @@ nav ul {
 
 .contact-btn a {
   cursor: pointer;
-  margin-right: .5rem;
-  padding: .5rem .5rem;
-  border: .5rem solid #204156;
+  margin-right: .2rem;
+  padding: 0 rem 0 rem;
+  border: .2rem solid #204156;
   position: relative;
 
 }
 
 .contact-btn a:active {
- top: .5rem;
+ top: .2rem;
  
 }
 
 nav a {
-  height: .5rem;
-  line-height: .5rem;
+  height: .2rem;
+  line-height: .2rem;
   color: #204156;
   text-decoration: none;
 }
