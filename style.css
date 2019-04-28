@@ -1,5 +1,5 @@
 html, body {
-  min-height: 100%;
+  min-height: auto;
   display: flex;
   flex-direction: column;
   font-weight: 400;
@@ -14,7 +14,7 @@ body {
   url('https://www.colorhexa.com/779ecb.png');
   background-position: center top;
   background-size: cover;
-  margin: 0;
+  margin: auto;
 
 }
 
@@ -25,13 +25,13 @@ body {
 
 .page-description {
   border: 8rem solid#000;
-  margin: 0;
+  margin: auto;
   text-align: center;
   padding: .1rem;
 }
 
 .gallery {
-  display: center;
+  display: contents;
   flex-wrap: center;
   justify-content: center;
   align-items: center;
@@ -43,7 +43,7 @@ body {
   border: 0rem solid #FFF;
   margin: 0rem;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .gallery-item .thumbnail {
