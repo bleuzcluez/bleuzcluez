@@ -34,6 +34,7 @@ body {
   display: center;
   flex-wrap: center;
   justify-content: center;
+  align-items: center;
   margin-top:.2rem;
   width: .2rem;
 }
@@ -41,12 +42,14 @@ body {
 .gallery-item {
   border: 0rem solid #FFF;
   margin: 0rem;
+  align-items: center;
   justify-content: center;
 }
 
 .gallery-item .thumbnail {
   border: 0rem ;
   justify-content: center;
+  align-items: center;
 
 }
 
