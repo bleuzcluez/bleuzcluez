@@ -36,8 +36,8 @@ div{
 }
 
 .page-description {
-  border: 5em double white;
-  margin: auto;
+  border: 0rem double white;
+  margin: initial;
   text-align: center;
   padding: .01rem;
 }
