@@ -32,11 +32,11 @@ div{
 
 .page-title {
   text-align: center;
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 .page-description {
-  border: 7rem double white;
+  border: 5rem double white;
   margin: auto;
   text-align: center;
   padding: .01rem;
