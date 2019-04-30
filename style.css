@@ -11,6 +11,7 @@ html, body {
 
 body {
   font-family: 'Cute Font', cursive;
+  background: white;
 
   background-position: center top;
   background-size: cover;
@@ -31,11 +32,11 @@ div{
 
 .page-title {
   text-align: center;
-  font-weight: 50;
+  font-weight: 150;
 }
 
 .page-description {
-  border: 10rem solid #395424;
+  border: 8rem solid #395424;
   margin: auto;
   text-align: center;
   padding: .1rem;
@@ -52,7 +53,7 @@ p{
 
 .gallery {
   display: contents;
-  justify-content: space-between;
+  justify-content: auto;
   align-items: normal;
   margin-top:10rem;
   width: 10rem;
@@ -61,14 +62,14 @@ p{
 .gallery-item {
   border: 0rem solid;
   margin: 0rem;
-  align-items: center;
-  justify-content: space-evenly;
+  align-items: auto;
+  justify-content: auto;
 }
 
 .gallery-item .thumbnail {
   border: 0rem ;
-  justify-content: center;
-  align-items: center;
+  justify-content: auto;
+  align-items: auto;
 
 }
 
@@ -83,6 +84,8 @@ p{
 
 
 .contact-btn {
+  height: 1 rem;
+  line-height: 1 rem;
   float: center;
   color:#FF0000;
 
@@ -98,13 +101,13 @@ p{
 }
 
 .contact-btn a:active {
- top: .2rem;
+ top: 1rem;
  
 }
 
 nav a {
-  height: .2rem;
-  line-height: .2rem;
+  height: 1rem;
+  line-height: 1rem;
   color: #FF0000;
   text-decoration: darkred;
 
