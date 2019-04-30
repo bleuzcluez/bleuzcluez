@@ -75,8 +75,8 @@ p{
 
 a:-webkit-any-link {
   color: red;
-  cursor: pointer;
-  text-decoration: none;
+  cursor: -webkit-grab;
+  text-decoration: overline;
 }
 
 /* FOOTER NAVIGATION */
