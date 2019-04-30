@@ -36,10 +36,10 @@ div{
 }
 
 .page-description {
-  border: 0.1rem double #395424;
+  border: 5rem solid white;
   margin: auto;
   text-align: center;
-  padding: .01rem;
+  padding: 1rem;
 }
 
 p{
