@@ -94,9 +94,9 @@ p{
 .contact-btn a {
   cursor: pointer;
   margin-right: .2rem;
-  padding: 1 rem 1 rem;
+  padding: 0rem 0rem;
   border: .2rem solid #FF0000;
-  position: center;
+  position: relative;
 
 }
 
