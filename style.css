@@ -98,5 +98,6 @@ nav a {
   line-height: .2rem;
   color: #204156;
   text-decoration: none;
+  float: left;
 }
 
