@@ -68,15 +68,16 @@ div{
 /* FOOTER NAVIGATION */
 
 #nav ul {
-  background-color: #000;
+  background-color: #FF0000;
   display: inline-block;
-  list-style-type: left;
+  list-style-type: circle;
   
 }
 
 
 .contact-btn {
-  float: right;
+  float: center;
+  color:#FF0000;
 
 }
 
@@ -84,7 +85,7 @@ div{
   cursor: pointer;
   margin-right: .2rem;
   padding: 0 rem 0 rem;
-  border: .2rem solid #204156;
+  border: .2rem solid #FF0000;
   position: relative;
 
 }
@@ -97,8 +98,8 @@ div{
 nav a {
   height: .2rem;
   line-height: .2rem;
-  color: #204156;
-  text-decoration: none;
+  color: #FF0000;
+  text-decoration: darkred;
 
 }
 
