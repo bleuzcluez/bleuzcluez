@@ -2,9 +2,9 @@ html, body {
   min-height: auto;
   display: flex;
   flex-direction: column;
-  font-weight: 400;
+  
   color: #FF0000;
-  line-height: 2;
+
  
 
 }
@@ -20,9 +20,9 @@ body {
 }
 
 div{
-  padding-right: 30px;
-  height: 100%;
-  width: 100%;
+  padding-right: unset;
+  height: min-content;
+  width: min-content;
 }
 
 .container{
@@ -36,19 +36,27 @@ div{
 }
 
 .page-description {
-  border: 1rem #FF0000;
+  border: 10rem solid #395424;
   margin: auto;
   text-align: center;
   padding: .1rem;
 }
 
+p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start:0px;
+  margin-inline-end:0px;
+
+}
+
 .gallery {
   display: contents;
-  flex-wrap: center;
-  justify-content: center;
-  align-items: center;
-  margin-top:.2rem;
-  width: .2rem;
+  justify-content: space-between;
+  align-items: normal;
+  margin-top:10rem;
+  width: 10rem;
 }
 
 .gallery-item {
