@@ -57,17 +57,11 @@ body {
 
 nav {
   background-color: #000;
+  max-width:25%;
+  min-width:140px;
+  flex: 1;
 }
 
-nav li {
-  display: inline;
-  margin: 0;
-  padding: .2 rem;
-}
-
-nav ul {
-  display: inline;
-}
 
 .contact-btn {
   float: right;
