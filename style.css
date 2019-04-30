@@ -11,7 +11,6 @@ html, body {
 
 body {
   font-family: 'Cute Font', cursive;
-
   background-image:
   url('https://www.beautycolorcode.com/37412a-336x280.png');
   background-position: center top;
@@ -37,7 +36,7 @@ div{
 }
 
 .page-description {
-  border: 8rem solid#000;
+  border: 1rem #FF0000;
   margin: auto;
   text-align: center;
   padding: .1rem;
@@ -53,7 +52,7 @@ div{
 }
 
 .gallery-item {
-  border: 0rem solid #FFF;
+  border: 0rem solid;
   margin: 0rem;
   align-items: center;
   justify-content: space-evenly;
