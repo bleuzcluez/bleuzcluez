@@ -30,8 +30,10 @@ body {
 
   
   header h1 {
-    font-weight: 700;
-    margin: 0;
+    font-weight:700; 
+    writing-mode: vertical-rl;
+  text-orientation: upright;
+
   }
   
   header nav {
