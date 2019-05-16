@@ -1,0 +1,20 @@
+html, body {
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    
+    color: #000000;
+  
+   
+  
+  }
+  
+  body {
+    font-family: 'Cute Font', cursive;
+    background: white;
+  
+    background-position: center top;
+    background-size: cover;
+    margin: auto;
+  
+  }
