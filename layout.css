@@ -5,6 +5,9 @@ body {
     background:black;
     color: white;
   }
+
+
+
   
   header {
     padding: 20px 0;
@@ -15,6 +18,16 @@ body {
     display: flex;
     align-items: center;
   }
+
+  header h2
+  {
+    position: relative;
+    position: initial;
+    min-height: 2px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
   
   header h1 {
     font-weight: 700;
