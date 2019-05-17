@@ -26,11 +26,12 @@ body {
 
   }
 
-  header h1
+  header h2
   {
     font-weight:700;
     writing-mode: vertical-rl;
     text-orientation: upright;
+    text-align: left
 }
   
   header nav {
