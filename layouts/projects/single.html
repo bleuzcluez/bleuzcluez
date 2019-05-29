@@ -8,7 +8,7 @@
 <body>
     {{ partial "navbar.html" (dict "context" . "originPage" "project") }}
     <div class="container">
-        <h1>{{ .Title }}</h1>
+        <h1 style= "font-family:'Bodoni, serif; color:white; font-size: 1.5rem;"  class="text-center"> {{ .Title }}</h1>
         
         {{/*  Each project has either a project image or a project video  */}}
         {{/*  The code below checks if there's a project video, and if so checks the type  */}}
@@ -21,7 +21,7 @@
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ .Params.projectVideo  }}?modestbranding=0&showinfo=0&rel=0" frameborder="0" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>    
                 </div>
                 {{ else if eq .Params.projectVideoType "vimeo" }}
-                    <div class="embed-responsive embed-responsive-16by9">
+                    <div class="embed-responsive embed-responsive-16by9" style="height: 400px; width:">
                         <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/{{ .Params.projectVideo  }}?title=0&byline=0&portrait=0"  frameborder="0" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
                     </div>
                 {{ else if eq .Params.projectVideoType "" }}
@@ -32,7 +32,9 @@
         {{ else }}
             {{ if .Params.projectImage }}
                 {{ $img:= .Resources.GetMatch .Params.projectImage }}
-                <img src="{{ $img.RelPermalink }}" />
+                <div class="text-center">
+                <img src="{{ $img.RelPermalink }}" style="height: 500px; widows: 600px"/>
+                </div>
             {{ else }}
                 <p>THERE IS NO PROJECT IMAGE OR PROJECT VIDEO ASSOCIATED WITH THIS PROJECT!!!</p>
                 <p>TODO: ADD A PROJECT IMAGE OR PROJECT VIDEO</p>
@@ -42,6 +44,9 @@
         {{ .Content }}
         {{/*  You can add more images and videos in the content as well! 
             Do that in the .md file for the project  */}}
+          
+            
+
      
     </div>
     

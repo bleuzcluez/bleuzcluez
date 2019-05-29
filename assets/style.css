@@ -1,17 +1,40 @@
 /* for card layout */
 .gallery-row {
-    margin-bottom: 2rem;
+    background-color: black;
+    color:rgb(218, 36, 36);
+    margin-bottom: 1rem;
 }
 
 .card-body a{ /* changes the style of a only when it's inside of card-body */
-    text-decoration: none;
-    color: black;
+    text-decoration: azure;
+    color:black;
 }
 
 .card-body a:hover{ /* changes the style of a ON HOVER and only when it's inside of card-body */
-    color: red;
+    color: rgb(64, 175, 129);
 }
 
-.body{
-    font-family: 'Times New Roman', Times, serif;
+
+mark, .mark {
+    padding: .2em;
+    background-color: #e01b2e;
 }
+
+
+p {
+margin-top: 0rem;
+margin-bottom: 0rem;
+  
+}
+
+body {
+    margin: 0;
+    font-family: Bodoni;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    text-align: left;
+    background-color: #000;
+}
+

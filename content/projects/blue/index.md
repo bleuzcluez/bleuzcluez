@@ -18,12 +18,27 @@
     projectImage = "duo.jpg"
     #Enter the filename only. For example, "metropolis_album.jpg" 
     #This image should be saved in the project folder with the name of your project 
-    projectImageAltText = ""
+    projectImageAltText = "a mood for blue"
     #Alt text is the text that gets read by screenreaders for accessibility (typically for the visually impaired) 
 
-+++
 
-I tried to depict what the color blue meant to me on a personal level. Most of the footage are personal moments which I used my phone to capture.
+   
+   
+
+
+
++++
+\
+\
+\
+
+<p class="text-align"> I tried to depict what the color blue meant to me on a personal level. Most of the footage are personal moments which I used my phone to capture. </p>
+\
+\
+\
+
+
+
 <!---Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 

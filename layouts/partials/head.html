@@ -3,7 +3,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> {{/*on a mobile device, it'll load the page to be as wide as the device and to have that be the scale 100%*/}}   
   
     {{ $style := resources.Get "style.css" | resources.Minify }}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}">  
+    <link rel="stylesheet" link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap" >
+
+    
 
     {{/* import bootstrap stylesheet */}}   
     {{ $bootstrapcss := resources.Get "bootstrap/bootstrap.css" | resources.Minify }}
