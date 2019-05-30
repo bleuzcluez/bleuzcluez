@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container-fluid">
     {{ $numColumns := 3 }}
     {{ range $idx, $proj:= .Site.Data.project_order.content }}
         {{ if modBool $idx $numColumns }} 
@@ -7,19 +7,23 @@
         {{ end }}
         {{ with $.Site.GetPage $proj }}
         {{ $img:= .Resources.GetMatch .Params.projectImage }}
-        {{ $imgThumb := $img.Fill "1000x700" }}
+        {{ $imgThumb := $img.Fill "400x400" }}
         {{/*  Resizes and crops the project image to 400 X 400 so that we get a perfect square which loads quickly  */}}
         <div class="col-3">
-            <div class="card h-1000 border-0">
-                <img src="{{ $imgThumb.RelPermalink }}" class="card-img-top" alt="...">
-                <div class="card-body">
+            <div class="card h-10000 border-0">
+                <img src="{{ $imgThumb.RelPermalink }}" class="card-img-top" alt="..." >
+                <div class="card-body " style="background-color:black;">
                     <a href="{{ .RelPermalink }}" class="stretched-link">
-                        <h5 class="card-title" text-black>{{ .Title }}</h5>
-                        <p class="card-text">{{ .Params.shortDescription }}</p>
+                        <h5 class="card-title text-white" text-white>{{ .Title }}</h5>
+                        <p class="card-text text-white">{{ .Params.shortDescription }}</p>
                     </a>
                 </div>
             </div>
         </div>
+
+        
+        
+        
 
             {{/*  <h2>{{ .Title }}</h2>
             <p>{{ .Params.shortDescription }}</p>

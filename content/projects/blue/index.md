@@ -30,9 +30,12 @@
 +++
 \
 \
-\
 
-<p class="text-align"> I tried to depict what the color blue meant to me on a personal level. Most of the footage are personal moments which I used my phone to capture. </p>
+ <div class="mx-auto" style="width: 700px;">
+ I tried to depict what the color blue meant to me on a personal level. Most of the footage are personal moments which I used my phone to capture. 
+                
+</div>
+
 \
 \
 \

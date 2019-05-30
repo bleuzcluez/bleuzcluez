@@ -21,7 +21,7 @@
     projectImageAltText = ""
     #Alt text is the text that gets read by screenreaders for accessibility (typically for the visually impaired)
 
-    
+    Image = "double happiness 2.jpg"
 
 
 
@@ -30,7 +30,13 @@
 +++
 \
 \
-I took items around my house that were prevalent to my childhood and culture. The brand of cigarettes in the photo is extremely popular in Asia and the mirror was frequently used by mom during my childhood. 
+<div class="mx-auto" style="width: 700px;">
+ I took items around my house that were prevalent to my childhood and culture. The brand of cigarettes in the photo is extremely popular in Asia and the mirror was frequently used by mom during my childhood. 
+                
+</div>
+\
+\
+\
 
 <!--Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
