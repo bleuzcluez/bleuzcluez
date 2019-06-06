@@ -9,8 +9,8 @@
         {{ $img:= .Resources.GetMatch .Params.projectImage }}
         {{ $imgThumb := $img.Fill "1200x600" }}
         {{/*  Resizes and crops the project image to 400 X 400 so that we get a perfect square which loads quickly  */}}
-        <div class="col-3">
-            <div class="card-body text-center border-0 padding: 2 rem;" style ="padding: 2 rem; padding-bottom: 2 rem; float: center;">
+        <div class="col-sm-3">
+            <div class="card-body text-center border-0 padding: 2 rem;" style ="font-family: ZCOOL XiaoWei, Bodoni; color:white; font-size: 13px; padding: 2 rem; padding-bottom: 2 rem; float: center;">
                 <img src="{{ $imgThumb.RelPermalink }}" class="card-img-top" alt="..." >
                 <div class="card-body " style="background-color:black;">
                     <a href="{{ .RelPermalink }}" class="stretched-link">

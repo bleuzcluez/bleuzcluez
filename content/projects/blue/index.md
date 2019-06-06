@@ -22,8 +22,7 @@
     #Alt text is the text that gets read by screenreaders for accessibility (typically for the visually impaired) 
 
 
-   
-   
+  
 
 
 
@@ -32,8 +31,7 @@
 \
 
  <div class="mx-auto" style="width: 700px;">
- I tried to depict what the color blue meant to me on a personal level. Most of the footage are personal moments which I used my phone to capture. 
-                
+ Most of this video is comprised of old footage from my phone. The footage taken are significant memories of mine that inspired what blue looked to me as a visual form. 
 </div>
 
 \
