@@ -30,8 +30,11 @@ src="double happiness 2.jpg"
 +++
 \
 \
-<div class="mx-auto" style="width: 700px;">
-<img src="double happiness 2.jpg" >
+<div class="mx-auto" style ="width:700px;">
+<img src="double happiness 2.jpg" style="height: 500px; widows: 600px" style ="padding: 2 rem; padding bottom: 2 rem; float:center;"/>
+\
+\
+\
  I took items around my house that were prevalent to my childhood and culture. The brand of cigarettes in the photo is extremely popular in Asia and the mirror was frequently used by mom during my childhood. 
                 
 </div>

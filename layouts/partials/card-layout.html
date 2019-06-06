@@ -1,6 +1,6 @@
 <div class="container-fluid" style="position: center; ">
     {{ $numColumns := 3 }}
-    {{ range $idx, $proj:= .Site.Data.project_order.content }}
+ {{ range $idx, $proj:= .Site.Data.project_order.content }}
         {{ if modBool $idx $numColumns }} 
         {{/*  if $idx modulo $numColumns = 0  */}}
             <div class="row gallery-row" style ="padding: 1 rem; padding-bottom: 2 rem; float: center;" >
@@ -35,7 +35,7 @@
             {{/*  <img src="{{ $img.RelPermalink }}" />  */}}
 
             
-        {{ end }}
+       {{ end }}
         {{ $nextIdx := add $idx 1 }}
         {{ if modBool $nextIdx $numColumns }}
         {{/*  if the index of the following project will be a multiple of $numColumns, end the row  */}}
