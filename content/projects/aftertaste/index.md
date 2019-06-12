@@ -24,7 +24,7 @@
 +++
 \
 
-<div class="mx-auto" style="width: 700px;">
+<div class="mx-auto" style="text-align:center;" style="height: 500px; with: 450px;" style="padding : 2 rem; padding bottom: 2 rem; float:center;">
  It is interesting how certain memories and feelings remain with us even after such a long time. I wanted to capture the cycle of a relationship and the fleeting nature of how it comes to start and end, as well as the repercussions of it.
 </div>
 \

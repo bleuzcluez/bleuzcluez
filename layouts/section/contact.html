@@ -9,15 +9,15 @@
 <body>
     {{ partial "navbar.html" (dict "context" . "originPage" "Contact") }}
 
-   {{ $img:= .Resources.GetMatch .Params.headshot }}
+   <!---{{ $img:= .Resources.GetMatch .Params.headshot }}-->
     <div class="container">
-        <div class="row">
-            <div class="col-3">
+        <div class="column">
+            <!---<div class="col-3">
                 <img class="img-fluid" src="{{ $img.RelPermalink }}" />
-            </div>
-            <div class="col-8">
+            </div>-->
+            <div class="col-3">
                 <h1>{{ .Params.title }} </h1>
-                <p>{{ .Content }}</p>
+                <p>{{ .Content }} </p>
             </div>
         </div>
 

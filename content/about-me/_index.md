@@ -11,7 +11,9 @@
  headshot="headshot.jpg"
 
 +++
-<div class="mx-auto" style ="width:700px;" Style="height: 500px; widows: 600px" style ="padding: 2 rem; padding bottom: 2 rem; float:center;">
+<!--<div class="mx-auto" style ="width:700px;" Style="height: 500px; widows: 600px" style ="padding: 2 rem; padding bottom: 2 rem; float:center;">-->
+<div class="mx-auto" style="width: fit-content;" style="height: 500px; widows: 600px;" style="padding : 2 rem; padding bottom: 2 rem; float:center;">
+    
 
 
 

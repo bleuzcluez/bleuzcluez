@@ -24,12 +24,14 @@
 +++
 \
 \
- <div class="mx-auto" style="width: 700px;">
+
+ <div class="mx-auto" style="text-align:center;" style="height: 500px; widows: 600px;" style="padding : 2 rem; padding bottom: 2 rem; float:center;">
                 Fragmentary clips taken during September. I put a stocking over the lens to give it a more dreamy and nostalgic effect.
                   </div>
  
 
 
+\
 \
 \
 \

@@ -21,7 +21,7 @@
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ .Params.projectVideo  }}?modestbranding=0&showinfo=0&rel=0" frameborder="0" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>    
                 </div>
                 {{ else if eq .Params.projectVideoType "vimeo" }}
-                    <div class="embed-responsive embed-responsive-16by9" style= "height: 400px; width:">
+                    <div class="embed-responsive embed-responsive-16by9" style= "height: 350px;">
                         <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/{{ .Params.projectVideo  }}?title=0&byline=0&portrait=0"  frameborder="0" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
                     </div>
                 {{ else if eq .Params.projectVideoType "" }}
@@ -33,7 +33,7 @@
             {{ if .Params.projectImage }}
                 {{ $img:= .Resources.GetMatch .Params.projectImage }}
                 <div class="text-center">
-                <img src="{{ $img.RelPermalink }}" style="height: 500px; widows: 600px" style ="padding: 2 rem; padding-bottom: 2 rem; float: center;"/>
+                <img src="{{ $img.RelPermalink }}" style=" height:450px; width: 500px; justify-content: center;" />
                <!-- <img src="" style="height: 500px; widows: 600px" />-->
                 </div>
             {{ else }}
@@ -57,6 +57,7 @@
 
      
     </div>
+    {{ partial "scripts.html" }}
     
 </body>
 </html>

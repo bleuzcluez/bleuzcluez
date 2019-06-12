@@ -30,7 +30,7 @@
 \
 \
 
- <div class="mx-auto" style="width: 700px;">
+ <div class="mx-auto" style="text-align:center;" style="height: 500px; widows: 600px;" style="padding : 2 rem; padding bottom: 2 rem; float:center;">
  Most of this video is comprised of old footage from my phone. The footage taken are significant memories of mine that inspired what blue looked to me as a visual form. 
 </div>
 
