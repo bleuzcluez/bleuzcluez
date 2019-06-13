@@ -11,9 +11,14 @@
  headshot="headshot.jpg"
 
 +++
-<div class="mx-auto" style ="width:700px;" Style="height: 500px; widows: 600px" style ="padding: 2 rem; padding bottom: 2 rem; float:center;">
+<div class="mx-auto">
 
 
 
-lololololololbsajdblakdhailldbajsbd@123.com
+email// fakeemail@123.com
+
+
+
+
+
 </div>

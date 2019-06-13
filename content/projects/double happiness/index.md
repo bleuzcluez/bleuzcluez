@@ -9,7 +9,7 @@
     date = 2019-05-28T11:11:51-07:00 #the date the file was created
 
     
-    shortDescription = "Double Happiness"
+    shortDescription = "Nostalgia"
     projectVideo = ""
     #Project video is just the unique part of the URL  
     # For example, if the link is https://vimeo.com/285189099 then the unique part is  285189099
@@ -30,8 +30,14 @@ src="double happiness 2.jpg"
 +++
 \
 \
-<div class="mx-auto" style ="width:700px;">
-<img src="double happiness 2.jpg" style="height: 500px; widows: 600px" style ="padding: 2 rem; padding bottom: 2 rem; float:center;"/>
+<div class="embed-responsive embed-responsive-object" >
+<div class= "text-center">
+<img src="double happiness 2.jpg" class ="img-fluid" style="height: 400px; width: 580px" />
+</div>
+</div>
+
+<div class="mx-auto" style="text-align:center;" style="height: 500px; widows: 600px;" style="padding : 2 rem; padding bottom: 2 rem; float:center;" />
+
 \
 \
 \

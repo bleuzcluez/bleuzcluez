@@ -3,13 +3,14 @@
  {{ range $idx, $proj:= .Site.Data.project_order.content }}
         {{ if modBool $idx $numColumns }} 
         {{/*  if $idx modulo $numColumns = 0  */}}
-            <div class="row gallery-row" style ="padding: 1 rem; padding-bottom: 2 rem; float: center;" >
+            <div class="row gallery-row" style ="padding: 1 rem; padding-bottom: 2.5 rem; float: center;" >
         {{ end }}
         {{ with $.Site.GetPage $proj }}
         {{ $img:= .Resources.GetMatch .Params.projectImage }}
         {{ $imgThumb := $img.Fill "1200x600" }}
         {{/*  Resizes and crops the project image to 400 X 400 so that we get a perfect square which loads quickly  */}}
         <div class="col-sm-3">
+                <div class="mx-auto" style="text-align:center;" style="height: 500px; width: 450px;" >
             <div class="card-body text-center border-0 padding: 2 rem;" style ="font-family: ZCOOL XiaoWei, Bodoni; color:white; font-size: 13px; padding: 2 rem; padding-bottom: 2 rem; float: center;">
                 <img src="{{ $imgThumb.RelPermalink }}" class="card-img-top" alt="..." >
                 <div class="card-body " style="background-color:black;">
@@ -19,6 +20,7 @@
                     </a>
                 </div>
             </div>
+        </div>
         </div>
 
         

@@ -23,7 +23,7 @@
 
 +++
 \
-<div class="mx-auto" style="width: 700px;">
+<div class="mx-auto" style="text-align:center;" style="height: 500px; widows: 600px;" style="padding : 2 rem; padding bottom: 2 rem; float:center;" >
  I explored the dynamics of bloddlines that didn't seem like bloodline. Strange what kind of events bring people together huh? 
                 
 </div>

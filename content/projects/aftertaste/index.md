@@ -9,7 +9,7 @@
     date = 2019-05-28T11:20:07-07:00 #the date the file was created
 
     
-    shortDescription = "Poetry"
+    shortDescription = "When does common sense turn into nonsense?"
     projectVideo = ""
     #Project video is just the unique part of the URL  
     # For example, if the link is https://vimeo.com/285189099 then the unique part is  285189099
@@ -24,7 +24,7 @@
 +++
 \
 
-<div class="mx-auto" style="text-align:center;" style="height: 500px; with: 450px;" style="padding : 2 rem; padding bottom: 2 rem; float:center;">
+<div class="mx-auto" style="text-align:center;" style="height: 500px; widows: 600px;" style="padding : 2 rem; padding bottom: 2 rem; float:center;">
  It is interesting how certain memories and feelings remain with us even after such a long time. I wanted to capture the cycle of a relationship and the fleeting nature of how it comes to start and end, as well as the repercussions of it.
 </div>
 \
